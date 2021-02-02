@@ -10,7 +10,6 @@ const getDataJokes = async () => {
     showJokes(res.data.joke);
 };
 
-getDataJokes();
 
 function showJokes(joke) {
   // ul.innerHTML = '';
